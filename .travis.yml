@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 10.15.0
+script: npm run test-bs
+addons:
+  browserstack:
+    username: "yusaku1"
+    access_key:
+      secure: "nnnao0WFZasQ9dBH2GMBvLC0kg2nU9X5SXQKDOIHUVKUgaArX5X0OHOmsdc1tXuLI8upQJm1XrQ6DUwgOInZAnA+qve7OZR4b/I143Ba3PTGEtTmiRVnqIze+PRMC3a4zBfm2YodAZA80zaLyYQsxvZUDMvWDyZY2UZtVW6UH98iRXXrCA2IMh0/JpFJ9yWFjDtouGJncalizNgkBJlGaMEftcZUGum4AJDYQMKqq9scSV3KkKj6pQNRmfOludgkM5xUiJwmIws/hxtzNqF70NJLM4GFeUd14TsnLS+56pbMaDS3Lv+fGOs2ljO/nPXpH4ns3rc0hKNNId//Gn4j/9LwAvOazfHnR7wUK3Fy5tbaqVnGAhLdJoR+rlkUyBFZN3gxis8nIgOdtJzFMhew18QmFiXjhiPZ94Mercyx0G+IpQ1ywADnAfyZmZTh1ynseXxPOP8rrQDdGgOnbytrb9w2qg9uZdH9n9mK84XIjHTg39NImD3Wmzog+jcvfefSetwtziUlMnfVgO9xQCYh42Nxpq6hrdZAKgLI46IKsCQkSX+DtZhGgg+o76AFCTV/u6Gc//V/IZ51/7eTrJqjHoUlxLWFW+QLbpjsUtgii+d1C/qt/vboiPRUu4MfcmwNWJnoFmxH/z6MgGVVCn9UCAXed32wTrH8HFxZCipR3Tw="
