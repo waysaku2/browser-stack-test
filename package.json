@@ -1,10 +1,11 @@
 {
   "name": "browser-stack-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "for browser-stack-test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-local": "karma start --browsers Chrome",
+    "test-bs": "karma start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,25 @@
   "bugs": {
     "url": "https://github.com/waysaku/browser-stack-test/issues"
   },
-  "homepage": "https://github.com/waysaku/browser-stack-test#readme"
+  "homepage": "https://github.com/waysaku/browser-stack-test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "assert": "^2.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.2",
+    "bufferutil": "^4.0.1",
+    "karma": "^5.1.1",
+    "karma-browserify": "^7.0.0",
+    "karma-browserstack-launcher": "^1.6.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-expect": "^1.1.3",
+    "karma-mocha": "^2.0.1",
+    "mocha": "^8.1.1",
+    "utf-8-validate": "^5.0.2",
+    "watchify": "^3.11.1"
+  }
 }
