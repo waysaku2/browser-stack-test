@@ -12,12 +12,6 @@ module.exports = function(config) {
       transform: [ ['babelify', {presets: ["@babel/preset-env"]}] ],
     },
 
-    // global config of your BrowserStack account
-    browserStack: {
-      username: 'yusaku1',
-      accessKey: 'WBqBR2KyNhXj92WWGTZp'
-    },
-
     // define browsers
     customLaunchers: {
       android71: {
