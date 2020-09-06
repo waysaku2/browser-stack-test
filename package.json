@@ -1,6 +1,9 @@
 {
   "name": "browser-stack-test",
   "version": "1.0.0",
+
+
+
   "description": "for browser-stack-test",
   "main": "index.js",
   "scripts": {
